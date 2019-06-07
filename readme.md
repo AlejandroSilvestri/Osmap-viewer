@@ -20,6 +20,12 @@ It only shows MapPoints.
 It includes Osmap code with a minor change I'll be able to eliminate with an improved version of Osmap. 
 
 
+## Installation
+Download and compile.  The only "special" consideration is the fact that VIZ doesn't come in OpenCV by default: it belongs to optional "contrib" module you must download and install along with OpenCV.
+
+\#include<...> must be able to search on the include folder (../include) and in you opencv folder, usually in /usr/local/include.  If you use OpenCV 4, you should change the latter to /usr/local/include/opencv4.  So, you should add these folders to your compiler include settings.
+
+
 ## Usage
 
 "Osmap viewer" mapFile.yaml
