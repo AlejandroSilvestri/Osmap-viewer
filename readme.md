@@ -11,13 +11,15 @@ Osmap viewer is a viewer tool for visualizing map point clouds saved in a file w
 Osmap viewer uses Osmap to deserialize map files, and OpenCV Viz to visualize them as point clouds.
 
 
-## Beta
+## Beta and finished
 
-Right now Osmap viewer is in its initial stage.  It works on my system, I only tested it with Ubuntu 18.04 and OpenCV 4.  It should work in other versions of Linux and OpenCV.  If you try it, please tell me if you succeded building and running it.
+Right now Osmap viewer is finished.  It works on my system, I only tested it with Ubuntu 18.04 and OpenCV 4.  It should work in other versions of Linux and OpenCV.  If you try it, please tell me if you succeded building and running it.
 
 It only shows MapPoints.
 
-It includes Osmap code with a minor change I'll be able to eliminate with an improved version of Osmap. 
+It includes Osmap code with a minor change.
+
+This project is working and finished, no longer work is expected on this, though it has a lot of room for improvments.
 
 
 ## Installation
